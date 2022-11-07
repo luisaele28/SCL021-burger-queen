@@ -1,0 +1,23 @@
+[
+    {
+        "id": "4",
+        "name": "Hamburguesa",
+        "price": 8,
+        "img": "src/assets/img/hamburguesa.jpg",
+        "type": "menu"
+      },
+      {
+        "id": "5",
+        "name": "Pepito",
+        "price": 10,
+        "img": "src/assets/img/pepito.jpg",
+        "type": "menu"
+      },
+      {
+        "id": "6",
+        "name": "Perro Caliente",
+        "price": 2,
+        "img": "src/assets/img/perroCaliente.jpg",
+        "type": "menu"
+      }
+]
