@@ -1,25 +1,21 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import logo from '../assets/img/CoronaBurger.png';
+import React from 'react';
+//import { Link } from "react-router-dom";
 
-const Home = () => {
+function Home() {
   return (
-    <>
-      <div className="home">
-        <div class="logo">
-          <img className="Burger" src={logo} alt="logo" />
-          <h1 className="textLogo">Corona Burger</h1>
-        </div>
-        <div className="btnHome">
-            {/* Boton continuar nos lleva al login con click o */}
-            <Link to="/login" className="btnlogin">Ingresar</Link>
-            {/* Boton continuar nos lleva al login con click o */}
-            <Link to="/register" className="btnregister">Crear Cuenta</Link>
-        </div>
-        {/* icon mesero -> menu
-        icon chef -> chef */}
-      </div>
-    </>
+    <div className="home">
+        <img src="logo.webp" alt="¡Bienvenidos!" className='logoH' />
+        {/*¡Bienvenido! ✧Inicia sesión por favor✧</p>*/}
+         <div className='btnHome'> 
+         
+          {/*<button><Link to="/loginW" img src="waiter.png" className='waiter'> </Link> </button>
+          <button><Link to="/loginC" img src="chef.png" className='chef'> </Link></button>*/}
+          
+          <button className="sing-in">Inicia Sesión</button>
+          </div>
+        
+    </div>
   );
-};
+}
+
 export default Home;

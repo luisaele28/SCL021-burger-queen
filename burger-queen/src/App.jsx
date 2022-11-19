@@ -1,27 +1,29 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./routes/home.jsx";
-import Login from "./routes/login.jsx";
-import Menu from "./routes/menu.jsx";
-import Chef from "./routes/chef.jsx";
-import Delivery from "./routes/delivery.jsx";
-//import "./App.css";
-import { SelectionProvider } from "./Commands/commands";
+import './App.css';
+import { Route, Routes } from "react-router-dom";
+import React from 'react';
+import Home from './routes/Home.jsx';
+import LoginW from './routes/LoginW.jsx';
+import LoginC from './routes/LoginC.jsx';
+import ViewC from './routes/ViewC.jsx';
+import ViewW from './routes/ViewW.jsx';
+import State from './routes/State.jsx';
 
-const App = () => {
+
+function App() {
   return (
-    <SelectionProvider>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="menu" element={<Menu />} />
-          <Route path="chef" element={<Chef />} />
-          <Route path="delivery" element={<Delivery />} />
-        </Routes>
-      </Router>
-    </SelectionProvider>
-  );
-};
 
+    <div>
+      <Routes>
+
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/LoginW" element={<LoginW />} />
+        <Route exact path="/LoginC" element={<LoginC />} />
+        <Route exact path="/ViewC" element={<ViewC />} />
+        <Route exact path="/ViewW" element={<ViewW />} />
+        <Route exact path="/State" element={<State />} />
+
+      </Routes>
+    </div>
+  );
+}
 export default App;

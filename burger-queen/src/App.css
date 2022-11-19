@@ -1,130 +1,38 @@
-/*@font-face {
-  font-family: "KaushanScript-Regular";
-  src: url("assets/font/KaushanScript-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 600;
-}*/
+.App {
+  text-align: center;
+}
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
-  
-  body {
-    background: #faebce;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .home, .login {
-    display: grid;
-    align-content: center;
-    justify-content: center;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .textLogo {
-    display: flex;
-    flex-direction: column;
-    Justify-content: space-between;
-    align-items: center;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    font-family: KaushanScript-Regular;
-    font-size: 100%;
-  }
-  
-  .logo {
-    width: 5%;
-  }
-  
-  .btnHome {
-    display: flex;
-    flex-direction: column;
-    Justify-content: space-between;
-  
-  }
-  
-  .btnlogin,
-  .btnregister {
-    padding: 0.8em 1.8em;
-    border: 2px solid #F6F650;
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    background-color: #DAF7A6;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    transition: .3s;
-    z-index: 1;
-    font-family: inherit;
-    color: black;
-    margin: 10px;
-  }
-  
-  .btnGrupo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  
-  .mesas {
-    display: flex;
-    flex-direction: row;
-    Justify-content: flex-end;
-    gap: 10px;
-  }
-  
-  .mesa {
-    width: 20%;
-    background-color: #F6F650;
-    color: black;
-    padding: 15% 32%;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 15px;
-    margin-top: 10px;
-    justify-content: space-between;
-  }
-  
-  .nameClient {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    border-radius: 5px;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-  }
-  
-  .btnMenu {
-    background-color: #f6ab50;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 10px;
-  
-  }
-  
-  .btnSendOrderF {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 480px;
-  }
-  
-  .btnSendOrderCh {
-  
-    background-color: #F6F650;
-    color: black;
-    padding: 15px 32px;
-  
-  }
-  
-  .corona{
-    width: 50px;
-    height: 50px;
-  }
+}
