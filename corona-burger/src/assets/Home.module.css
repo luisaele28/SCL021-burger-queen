@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&display=swap');
+
+:root {
+    /*--pinku: #F3B4DA;*/
+    --fonts: 'Josefin Sans', sans-serif;
+    /*--green1: #CEEB87;*/
+    --white: #ffffff;
+    --pin: #ffe0e9;
+}
+
+.logo {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+}
+
+.btnPedido,
+.btnCocina {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 45%;
+    height: 9%;
+    font-size: 38px;
+}
+
+.btnPedido {
+    top: 74%;
+    background: rgb(0 0 0);
+    cursor: pointer;
+}
+
+.btnPedido:hover{
+    background: #1f891f;  
+}
+
+.btnCocina:hover{
+    background: #1f891f;
+}
+
+.btnCocina {
+    top: 61%;
+    border: 2px solid var(--white);
+    box-shadow:
+        0 0 0 3px black,
+        0 0 0 5px var(--whiteBtn);
+    color: var(--white);
+    background: rgb(0 0 0);
+    cursor: pointer;
+}
+
+
+.btnCocina:focus {
+    background: var(--white);
+    color: black;
+    box-shadow:
+        0 0 7px rgb(215 117 176 / 20%),
+        0 0 14px rgb(215 117 176 / 20%),
+        0 0 28px rgb(215 117 176 / 20%);
+}
+
+.btnPedido:focus {
+    background: var(--pin);
+    color: black;
+    box-shadow:
+        0 0 7px rgb(215 117 176 / 20%),
+        0 0 14px rgb(215 117 176 / 20%),
+        0 0 28px rgb(215 117 176 / 20%);
+}
+
+@media screen and (min-width: 250px) {
+    .logo {
+        width: 70%;
+        top: 10%;
+    }
+    .btnPedido,
+    .btnCocina{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .logo {
+        width: 60%;
+        top: 15%;
+    }
+    .btnPedido,
+    .btnCocina{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 40%;
+        top: 5%;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .logo {
+        width: 35%;
+        top: 8%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .logo {
+        width: 30%;
+        top: 5%;
+    }
+  }
