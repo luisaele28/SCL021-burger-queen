@@ -81,7 +81,7 @@ body {
 }
 
 .statusColor1 {
-    color: var(--pinBtn);
+    color: var(--whiteBtn);
 }
 
 .statusColor2 {
@@ -150,7 +150,7 @@ body {
 
 .statusPend {
     top: 100px;
-    color: var(--pinBtn);
+    color: var(--whiteBtn);
 }
 
 .statusPrep {
