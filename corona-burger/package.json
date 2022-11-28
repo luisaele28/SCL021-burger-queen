@@ -39,7 +39,6 @@
       "last 1 safari version"
     ]
   },
-  
   "description": "Interfaz para tomar pedidos en un restaurante y enviarlos a cocina de manera ordenada",
   "main": "index.js",
   "repository": {
@@ -52,5 +51,3 @@
     "url": "https://github.com/luisaele28/SCL021-burger-queen/issues"
   }
 }
-
-

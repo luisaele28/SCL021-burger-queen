@@ -117,7 +117,7 @@ export const TakeOrder = () => {
     <div className={styles.setLunch}>
       <button onClick={() => toggleTabs(2)} className={tab === 2 ? styles.active : undefined}>Hamburguesas</button>
       <button onClick={() => toggleTabs(3)} className={tab === 3 ? styles.active : undefined}> Acompañamientos</button>
-      <button onClick={() => toggleTabs(4)} className={tab === 4 ? styles.active : undefined}> Bebidas</button>
+      <button onClick={() => toggleTabs(4)} className={tab === 4 ? styles.active : undefined}> Para beber</button>
     </div>
   )
 
@@ -129,7 +129,7 @@ export const TakeOrder = () => {
 
   return (
     <Fragment>
-      <Link to='/'><img className={styles.logo} alt='logo corona burger' src={image} /></Link>
+      <Link to='/'><img className={styles.logo} alt='logo burger queen escrito con v, plant based' src={image} /></Link>
       <div className={styles.select}>
         <button className={tab === 1 ? styles.active : undefined} onClick={() => toggleTabs(1)} >Desayuno</button>
         <button className={tab === 2 || tab === 3 || tab === 4 ? styles.active : undefined} onClick={() => toggleTabs(2)} >Almuerzo y Cena</button>
@@ -144,3 +144,9 @@ export const TakeOrder = () => {
     </Fragment>
   )
 }
+
+
+export default TakeOrder   
+
+
+

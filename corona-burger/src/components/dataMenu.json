@@ -1,0 +1,64 @@
+{
+    "menu": [
+      
+      { 
+        "category": "menu",
+         "items": [
+        { 
+          "item": "Hamburguesa",
+          "price": 8,
+          "picture": "./assets/hamburguesa.jpg"
+         },
+         
+         {
+          "item": "Pepito",
+          "price": 10,
+          "picture": "./assets/pepito.jpg"
+         },
+  
+         {
+          "item": "Perro Caliente",
+          "price": 2,
+          "picture": "./assets/perroCaliente.jpg"
+         },
+
+         { 
+          "item": "Cocacola",
+          "price": 2,
+          "picture": "./assets/cocaCola.jpeg"
+         },
+         
+         {
+          "item": "sprice",
+          "price": 1,
+          "picture": "./assets/sprice.jpg"
+         },
+  
+         {
+          "item": "Malta",
+          "price": 2,
+          "picture": "./assets/malta.png"
+         },
+    
+         {
+          "item": "Papas Fritas",
+          "price": 5,
+          "picture": "./assets/papasFritas.jpg"
+         },
+         
+         {
+          "item": "Tequeños",
+          "price": 7,
+          "picture": "./assets/tequeños.jpg"
+         },
+  
+         {
+          "item": "Pastelitos",
+          "price": 3,
+          "picture": "./assets/pastelitos.jpg"
+         }
+
+        ]
+      }
+    ] 
+  }

@@ -5,7 +5,7 @@
 }
 
 :root {
-  --pinku: #ffffff;
+  --white: #ffffff;
   --fonts: 'Josefin Sans', sans-serif;
 }
 
@@ -29,34 +29,34 @@ button {
   width: 187px;
   height: 46px;
   background: transparent;
-  border: 2px solid var(--pinku);
+  border: 2px solid var(--white);
   border-radius: 50px;
   margin: 20px;
   /* outline: 2px solid var(--pinku); */
   /* outline-offset: 3px; */
-  color: var(--pinku);
+  color: var(--white);
   box-shadow:
   0 0 0 3px black,
-  0 0 0 5px var(--pinku);
+  0 0 0 5px var(--white);
 }
 
 .active{
-  background: var(--pinku);
+  background: var(--white);
   color: black;
   box-shadow:
   0 0 0 3px black,
-  0 0 0 5px var(--pinku),
+  0 0 0 5px var(--white),
   0 0 10px rgb(215 117 176 / 30%),
   0 0 27px rgb(215 117 176 / 30%), 
   0 0 40px rgb(215 117 176 / 30%);
 }
 
 button:focus {
-  background: var(--pinku);
+  background: var(--white);
   color: black;
   box-shadow:
   0 0 0 3px black,
-  0 0 0 5px var(--pinku),
+  0 0 0 5px var(--white),
   0 0 10px rgb(215 117 176 / 20%),
   0 0 17px rgb(215 117 176 / 20%), 
   0 0 30px rgb(215 117 176 / 20%);
